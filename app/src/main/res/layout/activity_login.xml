@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/logintextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@color/light_blue"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/usernametextedit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/logintextview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginRight="20dp"
+        android:hint="username or email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/passwoededittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernametextedit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwoededittext"
+        android:layout_marginHorizontal="50dp"
+        android:layout_centerInParent="true"
+
+
+        android:layout_marginTop="70dp"
+        android:text="submit" />
+
+    <TextView
+        android:id="@+id/having_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="46dp"
+        android:text="Don't have an account ?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/go_to_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/having_account"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="26dp"
+        android:text="Sign Up" />
+
+
+</RelativeLayout>

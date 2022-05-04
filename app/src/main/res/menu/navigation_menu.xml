@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+
+    <item android:title="Shop"
+        android:id="@+id/nav_shop"/>
+
+    <item android:title="Product"
+        android:id="@+id/nav_products"/>
+
+    <item android:title="Sales"
+        android:id="@+id/nav_sales"/>
+    <item android:title="Stock"
+        android:id="@+id/nav_stock"/>
+    <item android:title="Reports"
+        android:id="@+id/nav_reports"/>
+</menu>

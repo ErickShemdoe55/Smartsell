@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912378408992",
+    "project_id": "smartsell-e1ff5",
+    "storage_bucket": "smartsell-e1ff5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912378408992:android:e7aadd2fb2842ae849cc45",
+        "android_client_info": {
+          "package_name": "com.example.smartsell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912378408992-aq9ckkqknsabn2tve122i97r33l12jrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS-STkn4RMwknXpshXPZNI9J-1w97xz7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912378408992-aq9ckkqknsabn2tve122i97r33l12jrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
